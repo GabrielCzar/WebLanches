@@ -55,5 +55,7 @@ Django é um framework gratuito e de código aberto para a criação de aplicaç
 	- Para acessar local:
 	``` http://127.0.0.1:8000/ ```
 - Para criar um app 
- ``` python manage.py startapp blog ```
+ ``` python manage.py startapp nome_app ```
+- Para criar migraçoes dos apps
+ ``` python manage.py makemigrations nome_app ```
 
